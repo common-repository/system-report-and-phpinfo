@@ -1,0 +1,76 @@
+.twistpress_debug-wrap pre {
+    color: #111111;
+
+    max-width: 100%;
+
+    background: #cacaca;
+    padding: 15px;
+    border: solid 1px #bababa;
+    overflow: auto;
+}
+
+.psa-social-link {
+    display: inline-block;
+    width: 30px;
+    vertical-align: middle;
+}
+
+.psa-social-link > img {
+    max-width: 100%;
+}
+
+.twistpress_debug-action-buttons {
+    width:100%;
+    height:50px;
+    clear:both;
+}
+
+.twistpress_debug-action-buttons form {
+    display: inline-block;
+    margin: 10px 10px 20px 0px;
+    float:left;
+}
+
+
+.twistpress_debug-wrap {
+    display: -webkit-flex;
+    display: -moz-flex;
+    display: -ms-flex;
+    display: -o-flex;
+    display: flex;
+}
+
+.twistpress_debug-wrap img {
+    max-width: 100%;
+}
+
+.twistpress_debug-content {
+    width: 70%;
+    max-width: 100%;
+    overflow: auto;
+}
+
+.twistpress_debug-side {
+    width: 30%;
+    margin: 16px;
+    padding: 30px;
+    background-color: #fff;
+    border: 1px solid #e5e5e5;
+    box-shadow: 0 1px 1px #0000;
+}
+
+@media screen and (max-width: 900px) {
+    .twistpress_debug-side,
+    .twistpress_debug-content {
+        width: auto;
+    }
+    .twistpress_debug-wrap {
+        display: block;
+    }
+
+    .twistpress_debug-side {
+        margin: 0;
+    }
+}
+
+
